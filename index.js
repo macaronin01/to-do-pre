@@ -6,7 +6,6 @@ let items = [
 	"Прогуляться по улице в солнечный день",
 	"Помыть посуду",
 ];
-console.log(localStorage.getItem('items'));
 
 const listElement = document.querySelector(".to-do__list");
 const formElement = document.querySelector(".to-do__form");
